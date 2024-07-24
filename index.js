@@ -37,7 +37,7 @@ dracoLoader.setDecoderPath("https://www.gstatic.com/draco/versioned/decoders/1.5
 const loader = new GLTFLoader();
 loader.setDRACOLoader(dracoLoader);
 
-loader.load('Images/4.glb',
+loader.load('https://cdn.jsdelivr.net/gh/BluePixelLab/BluePixelLab/4.glb',
 
 	function (gltf) {
 		scene.add(gltf.scene);
